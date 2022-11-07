@@ -29,5 +29,5 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az deployment group create -g bbworkshop -f iac/app-service.bicep
+            az deployment group create -g azure-oidc -f app-service.bicep
             
